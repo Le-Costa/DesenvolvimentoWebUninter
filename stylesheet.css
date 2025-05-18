@@ -1,0 +1,40 @@
+body {
+    background-color:#f1EEE6; 
+  }
+
+h1 {
+    color: #b95f7d;                                                /* Cor do texto */
+    font-size: 35px;                                                /* Tamanho da fonte */
+    text-align: center;                                             /* Alinhamento central */              
+}
+p {
+    font-size: 18px;                                                /*tamanho da fonte*/
+    text-align: justify;
+}
+ul li {
+    margin-bottom: 10px;
+}
+table {
+    width: 50%;                                                     /* Largura da tabela */
+    margin: 20px auto;                                              /* centralização */
+    background-color: #ebe3e3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);                        /*sombra*/
+    
+  }
+  td {
+    padding: 12px;
+    text-align: center; /* centralização*/
+    font-family: Georgia, 'Times New Roman', Times, serif;      /* fonte da familia*/
+  }
+  a:hover {
+    color: red;            
+  }
+  
+.imagem-livro {
+    display: block;             /* Necessário para centralizar com margin auto */
+    margin: 20px auto;          /* Centraliza horizontalmente */
+    border-radius: 20px;        /* Arredonda as bordas */
+    width: 180px;               /*  largura da imagem */
+    max-width: 100%;            /* não ultrapassa a tela */
+  }
+  
